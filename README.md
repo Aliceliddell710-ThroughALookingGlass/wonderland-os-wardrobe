@@ -1,2 +1,6 @@
-# wonderland-os-wardrobe
-AI stylist photoshoot app for Wonderland OS - wardrobe dashboard and interface
+# wonderland-os-wardrobe (ARCHIVED)
+
+This repo is **archived**. Do not add code here.
+
+The canonical Styling Engine lives in `wonderland-wardrobe-ai-stylist`.
+See `WARDROBE_SYSTEM_RULES.md` for the single-master rules.

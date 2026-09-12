@@ -12,9 +12,14 @@ Never create a new wardrobe catalog, closet, dashboard, or any new layer. If a n
 - When asked for a stream look or refresh, pull ONLY from owned inventory and propose 2-4 new ways to wear existing pieces.
 - Keep pose ratings and hashtag suggestions inside the master — no separate layers.
 - Goal: never think about what to wear for a stream again.
+- **Execution lives in `src/styling_engine.py` in the canon repo `wonderland-wardrobe-ai-stylist`.** Notion managers read signals and hand ranked priorities to the engine. They do not build or act.
 
 ## Privacy & Safety (hard rules)
 - Only Alice appears on adult sites. Collaborators require verified age proof.
 - Kid never appears on adult or NSFW content. SFW family mentions only (vague: "single mom" is fine; no names, ages, faces, schools, locations).
 - Non-profit stays strictly SFW and fully separated from adult work.
 - Adult-industry business-appropriate is allowed for the professional line; the kid line never bends.
+
+## Repo hygiene
+- `wonderland-wardrobe-ai-stylist` is the CANON repo. All engine code goes here.
+- This repo and `wonderland-os-wardrobe-ai-stylist` are archived — README + rules only, no new code.
