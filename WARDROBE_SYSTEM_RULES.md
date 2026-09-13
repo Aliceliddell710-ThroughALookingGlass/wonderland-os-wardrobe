@@ -14,11 +14,13 @@ Never create a new wardrobe catalog, closet, dashboard, or any new layer. If a n
 - Goal: never think about what to wear for a stream again.
 - **Execution lives in `src/styling_engine.py` in the canon repo `wonderland-wardrobe-ai-stylist`.** Notion managers read signals and hand ranked priorities to the engine. They do not build or act.
 
-## Privacy & Safety (hard rules)
-- Only Alice appears on adult sites. Collaborators require verified age proof.
-- Kid never appears on adult or NSFW content. SFW family mentions only (vague: "single mom" is fine; no names, ages, faces, schools, locations).
-- Non-profit stays strictly SFW and fully separated from adult work.
-- Adult-industry business-appropriate is allowed for the professional line; the kid line never bends.
+## 🔒 HARD PRIVACY & BOUNDARY RULES (standing, non-negotiable)
+- **Kid is off-limits everywhere.** No photos, no mentions, no names, no ages, no schools, no locations, no faces. Ever. No exceptions.
+- **Adult sites = Alice only.** Collaborators need verified age docs on file first.
+- **Non-profit = strictly SFW**, fully separated from adult work.
+- Adult industry business-appropriate tone is fine on the adult side. The kid line never bends.
+- Public family mentions stay vague: "I'm a single mom" is fine. Names, ages, schools, faces, locations — never.
+- No kid photos on any public channel, SFW or not, until she consents on her own terms.
 
 ## Repo hygiene
 - `wonderland-wardrobe-ai-stylist` is the CANON repo. All engine code goes here.
